@@ -1,0 +1,31 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+    padding: 50px;
+}
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-left{
+    background-color: green;
+}
+
+.top-right{
+    background-color: red;
+}
+
+.top-right img{
+    width: 50px;
+    height: 50px;
+}
+
+.image-container img {
+    width: 25%;
+}
+
+.image-container p {
+    text-align: center;
+}
