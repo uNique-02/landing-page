@@ -1,31 +1,121 @@
 .top{
     display: flex;
     justify-content: space-between;
-    background-color: yellow;
-    padding: 50px;
+    background-color: #1F2937;
+    padding: 1em 20em;
+    margin: -8px;
 }
+
+.top-left{
+    line-height: 1.3em;
+    flex: 1;
+}
+
+.top-left>*:not(button){
+    width: 90%;
+    color: #F9FAF8;
+}
+
+.top-right{
+    flex: 1;
+    justify-content: flex-end;
+    display: flex; /* Add this line */
+    align-items: center; /* Add this line */
+}
+
+h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    line-height: 1em;
+    margin: 0;
+}
+
+.top-left p{
+    margin-top: 0;
+    font-size: 18px;
+    color: #E5E7E5;
+}
+
+.top-right img{
+    width: auto;
+    height: 100%;
+}
+.top-right button{
+    width: 20%;
+}
+
+.random-info{
+    width: 50%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.random-info{
+    text-align: center;
+    padding: 5em 0;
+}
+
 .image-container {
     display: flex;
     justify-content: space-between;
 }
 
-.top-left{
-    background-color: green;
-}
-
-.top-right{
-    background-color: red;
-}
-
-.top-right img{
-    width: 50px;
-    height: 50px;
-}
-
 .image-container img {
-    width: 25%;
+    width: 50%;
+    background-color: seagreen;
+    margin: 0 auto;
 }
 
-.image-container p {
+.image-container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.random-quote{
     text-align: center;
+    padding: 5em 0;
+    background-color: #E5E7E5;
+    width: 100%;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    padding: 4em 0;
+    background-color: #1F2937;
+    width: 100%;
+    color: #F9FAF8;
+}
+
+.cta-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    line-height: 1em;
+    background-color: #3883F6;
+    padding: 1em 2em;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    width: 100vw;
+    padding: 1em 10em;
+    box-sizing: border-box;
+    color: #E5E7E5;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 1em;
 }
