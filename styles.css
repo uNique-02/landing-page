@@ -1,52 +1,55 @@
-.top{
+.top {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
     padding: 1em 20em;
     margin: -8px;
+    padding-bottom: 3em;
 }
 
-.top-left{
+.top-left {
     line-height: 1.3em;
     flex: 1;
 }
 
-.top-left>*:not(button){
+.top-left > *:not(button) {
     width: 90%;
     color: #F9FAF8;
 }
 
-.top-right{
+.top-right {
     flex: 1;
     justify-content: flex-end;
-    display: flex; /* Add this line */
-    align-items: center; /* Add this line */
+    display: flex;
+    align-items: center;
 }
 
-h1{
+h1 {
     font-size: 48px;
     font-weight: extra-bold;
     line-height: 1em;
     margin: 0;
 }
 
-.top-left p{
+.top-left p {
     margin-top: 0;
     font-size: 18px;
     color: #E5E7E5;
 }
 
-.top-right img{
+.top-right img {
     width: auto;
     height: 100%;
 }
-.top-right button{
+
+.top-right button {
     width: 20%;
 }
 
-.random-info{
+.random-info {
     width: 50%;
 }
+
 body {
     display: flex;
     justify-content: center;
@@ -54,7 +57,7 @@ body {
     flex-direction: column;
 }
 
-.random-info{
+.random-info {
     text-align: center;
     padding: 5em 0;
 }
@@ -70,14 +73,14 @@ body {
     margin: 0 auto;
 }
 
-.image-container div{
+.image-container div {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.random-quote{
+.random-quote {
     text-align: center;
     padding: 5em 0;
     background-color: #E5E7E5;
@@ -95,7 +98,7 @@ body {
     color: #F9FAF8;
 }
 
-.cta-container{
+.cta-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -115,7 +118,51 @@ body {
     color: #E5E7E5;
 }
 
-.nav-buttons {
+.nav-buttons{
     display: flex;
-    gap: 1em;
+    gap: 2em;
+    height: 20px;
 }
+.nav-buttons>*{
+    color: #E5E7E5;
+    display: block;
+    box-sizing: border-box;
+}
+
+.sign-up{
+    background-color: #3883F6;
+    padding: 3px 15px;
+    border-radius: 8%;
+    border-color: black;
+}
+
+.logo{
+    width: 300px;
+    height: 150px;
+    margin-top: -50px;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+    width: 200px;
+    padding: 10px 0;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+    transition: 0.4s;
+    height: 30px;
+  }
+
+  button:hover {
+    color: white;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+    background-color: rgba(104, 85, 224, 1);
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: red;
+  }
